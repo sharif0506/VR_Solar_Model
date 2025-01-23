@@ -1,0 +1,856 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 65276 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/mrlab/Student/Khan/Solar/My project-7 May/My project-7 May/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63757
+Successfully changed project path to: C:/Users/mrlab/Student/Khan/Solar/My project-7 May/My project-7 May/My project
+C:/Users/mrlab/Student/Khan/Solar/My project-7 May/My project-7 May/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30632] Host "[IP] 130.232.136.217 [Port] 0 [Flags] 2 [Guid] 2840251367 [EditorId] 2840251367 [Version] 1048832 [Id] WindowsEditor(7,TY2401093) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30632] Host "[IP] 130.232.136.217 [Port] 0 [Flags] 2 [Guid] 2840251367 [EditorId] 2840251367 [Version] 1048832 [Id] WindowsEditor(7,TY2401093) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 18.32 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mrlab/Student/Khan/Solar/My project-7 May/My project-7 May/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4090 (ID=0x2684)
+    Vendor:   NVIDIA
+    VRAM:     24156 MB
+    Driver:   31.0.15.4665
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008260 seconds.
+- Loaded All Assemblies, in  0.326 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.242 seconds
+Domain Reload Profiling: 567ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (112ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (243ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.601 seconds
+Refreshing native plugins compatible for Editor in 11.97 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.770 seconds
+Domain Reload Profiling: 1368ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (770ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (490ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.89 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4556 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 117 unused Assets / (3.7 MB). Loaded Objects now: 4993.
+Memory consumption went from 167.9 MB to 164.2 MB.
+Total: 3.128500 ms (FindLiveObjects: 0.180400 ms CreateObjectMapping: 0.075300 ms MarkObjects: 2.240000 ms  DeleteObjects: 0.632300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23040.101048 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 3/Large/Textures/Back_Large.png
+  artifactKey: Guid(cb4c13a68d3c198419fef62baaab599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 3/Large/Textures/Back_Large.png using Guid(cb4c13a68d3c198419fef62baaab599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972f59cc91e9094b968d00372a39ef5c') in 0.473267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 1/Large/Textures/Left_Space 1 Large.png
+  artifactKey: Guid(e5bfc1abc53e0f24bbcfe5f5b5de835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 1/Large/Textures/Left_Space 1 Large.png using Guid(e5bfc1abc53e0f24bbcfe5f5b5de835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce16002193267d26e06118547a9d9d7') in 0.117670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 3/Medium/Textures/Left_Medium.png
+  artifactKey: Guid(e0f1ae8f95f096640bd69fbbfb06e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 3/Medium/Textures/Left_Medium.png using Guid(e0f1ae8f95f096640bd69fbbfb06e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae1d1b377fa034b18dfd61030132dfd') in 0.047862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 2/Large/Textures/Right_Large.png
+  artifactKey: Guid(880616304a939e546886487a0f41d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 2/Large/Textures/Right_Large.png using Guid(880616304a939e546886487a0f41d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb17905f544dc3bfbc3019a12f8980a0') in 0.142443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 5/Medium/Textures/Left_Medium.png
+  artifactKey: Guid(3970feb74eed1c349a7443814e1e19f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 5/Medium/Textures/Left_Medium.png using Guid(3970feb74eed1c349a7443814e1e19f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee11f36163819bc13e2cf3c01fc20c3') in 0.046150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 2/Medium/Textures/Right_Skybox_Space 2 Medium.png
+  artifactKey: Guid(5e95ac97d7cdba949ba381e8bdf6cbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 2/Medium/Textures/Right_Skybox_Space 2 Medium.png using Guid(5e95ac97d7cdba949ba381e8bdf6cbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c47f84f2d0ab664464393168f51905') in 0.031906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 2/Small/Textures/Back_Skybox_Space 2 Small.png
+  artifactKey: Guid(f1ccdfc6fdbf336439901f72319338e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 2/Small/Textures/Back_Skybox_Space 2 Small.png using Guid(f1ccdfc6fdbf336439901f72319338e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c85407e5f4c5a0f4f0716c1e443390') in 0.024939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 1/Large/Textures/Right_Space 1 Large.png
+  artifactKey: Guid(dad70adf15a0a5e4d859dad154f91d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 1/Large/Textures/Right_Space 1 Large.png using Guid(dad70adf15a0a5e4d859dad154f91d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8b0429089b2fbcaeaef941666d6eaa') in 0.129364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 2/Large/Textures/Left_Large.png
+  artifactKey: Guid(585e6de8672d34143ba645ecccffcd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 2/Large/Textures/Left_Large.png using Guid(585e6de8672d34143ba645ecccffcd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae8095a85ce87f35d5d6df412acf593') in 0.139813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 4/Small/Textures/Back_Small.png
+  artifactKey: Guid(d9a1a04e78e43b446adc4176f2348c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 4/Small/Textures/Back_Small.png using Guid(d9a1a04e78e43b446adc4176f2348c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b714b04f9ee8ce35bc7991cb0642a1c') in 0.011069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 2/Medium/Textures/Left_Skybox_Space 2 Medium.png
+  artifactKey: Guid(f3165b09fc499b5419e5ce3bf45c828a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 2/Medium/Textures/Left_Skybox_Space 2 Medium.png using Guid(f3165b09fc499b5419e5ce3bf45c828a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c422225d78938589aaf96fea87519b7') in 0.042799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 1/Small/Textures/Front_Space 1 Small.png
+  artifactKey: Guid(f01e42fe8d4cd5241a2f6892ad83a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 1/Small/Textures/Front_Space 1 Small.png using Guid(f01e42fe8d4cd5241a2f6892ad83a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198422e6e1e3bd29181ec27b6afb308b') in 0.019791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 5/Large/Textures/Right_Large.png
+  artifactKey: Guid(a57d7fabff9b3f44dab432e720709ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 5/Large/Textures/Right_Large.png using Guid(a57d7fabff9b3f44dab432e720709ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9cbc8e10bc0826c220b982a9757044') in 0.241946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 1/Medium/Textures/Right_Space 1 Medium.png
+  artifactKey: Guid(0fcf037655ad32140902641ba8e1a0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 1/Medium/Textures/Right_Space 1 Medium.png using Guid(0fcf037655ad32140902641ba8e1a0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90951a540e5dabd66f77ca3dfc49e0b9') in 0.036444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 1/Large/Textures/Up_Space 1 Large.png
+  artifactKey: Guid(1bca99ffbc01a19419b7c072c1c59182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 1/Large/Textures/Up_Space 1 Large.png using Guid(1bca99ffbc01a19419b7c072c1c59182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35572c0805575c16a30c3370a5fedb99') in 0.120960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 3/Large/Textures/Right_Large.png
+  artifactKey: Guid(7996cec8466051440b27b48304235db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 3/Large/Textures/Right_Large.png using Guid(7996cec8466051440b27b48304235db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d93a3e717323f05f126023372f4a64') in 0.177779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 5/Medium/Textures/Right_Medium.png
+  artifactKey: Guid(5a6621a22ae01a24d8585bb7162fd303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 5/Medium/Textures/Right_Medium.png using Guid(5a6621a22ae01a24d8585bb7162fd303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec951bb3fa61dc8940179fbce2ddb5ee') in 0.035504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 5/Large/Textures/Up_Large.png
+  artifactKey: Guid(4acb08a2ac6f0cf47a2cc7dddea3882b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 5/Large/Textures/Up_Large.png using Guid(4acb08a2ac6f0cf47a2cc7dddea3882b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a545d86ef38e34b6c4ed3ddad7a21ad6') in 0.123591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 3/Medium/Textures/Front_Medium.png
+  artifactKey: Guid(b8a7c068ac2a22044aa58a209ec4e1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 3/Medium/Textures/Front_Medium.png using Guid(b8a7c068ac2a22044aa58a209ec4e1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5756e014db22d1fdff3b026fa573662c') in 0.032822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 2/Large/Textures/Down_Large.png
+  artifactKey: Guid(a5843ef05e516d04c90a16715f70ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 2/Large/Textures/Down_Large.png using Guid(a5843ef05e516d04c90a16715f70ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432c90405f60aa9e761aba9456e853f6') in 0.102353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 2/Small/Textures/Right_Skybox_Space 2 Small.png
+  artifactKey: Guid(7b82bc6ef2eb0bb459e5dce2be5cf090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 2/Small/Textures/Right_Skybox_Space 2 Small.png using Guid(7b82bc6ef2eb0bb459e5dce2be5cf090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52227be56848bf4a19136f416157796') in 0.016308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(94096dce3a6e4bf48b522b571bb82339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(94096dce3a6e4bf48b522b571bb82339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4396ab4870ec38a621a1a6c786cf5fd') in 0.007017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Sprites/Checkmark.png
+  artifactKey: Guid(db3e7b7c8db355e499429545071a0321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Sprites/Checkmark.png using Guid(db3e7b7c8db355e499429545071a0321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c5eeb167c7be46275a0ed56641ab7e') in 0.037706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 4/Large/Textures/Right_Large.png
+  artifactKey: Guid(42dfd8aee52c64343912ad71b8ea87d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 4/Large/Textures/Right_Large.png using Guid(42dfd8aee52c64343912ad71b8ea87d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74da0da0e1d81a369e2c8b6435102279') in 0.018473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 1/Medium/Textures/Left_Space 1 Medium.png
+  artifactKey: Guid(f204e0e6d4b82d4479204048d047835d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 1/Medium/Textures/Left_Space 1 Medium.png using Guid(f204e0e6d4b82d4479204048d047835d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f265e4b7c0add2d56122989b248a281b') in 0.027561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 3/Small/Textures/Left_Small.png
+  artifactKey: Guid(d28ab636a8051ad448bb465d6463e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 3/Small/Textures/Left_Small.png using Guid(d28ab636a8051ad448bb465d6463e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ce4defefa6a0efefa553f373a8025e') in 0.010848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 4/Large/Textures/Left_Large.png
+  artifactKey: Guid(748a12cc6c6855442a0b22285d628acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 4/Large/Textures/Left_Large.png using Guid(748a12cc6c6855442a0b22285d628acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5b43ef7c48b04c0f1f699d0d47be6e') in 0.017455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 4/Medium/Textures/Up_Medium.png
+  artifactKey: Guid(6fbc111cfcf065641aea692bee74ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 4/Medium/Textures/Up_Medium.png using Guid(6fbc111cfcf065641aea692bee74ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252ba101db3e2052ac172c81fd8a0e54') in 0.018737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 1/Small/Textures/Down_Space 1 Small.png
+  artifactKey: Guid(89cb1494f355e1647abc44e81eb13cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 1/Small/Textures/Down_Space 1 Small.png using Guid(89cb1494f355e1647abc44e81eb13cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f8de1debcec45f91824fcfec7e277b') in 0.008784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4.png
+  artifactKey: Guid(affa059594145a843b81788037b4ee21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4.png using Guid(affa059594145a843b81788037b4ee21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8533ae3b85737f5a9131de17c0b947fb') in 0.015449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 2/Small/Textures/Up_Skybox_Space 2 Small.png
+  artifactKey: Guid(81eb24afd79873b408dd207831e625de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 2/Small/Textures/Up_Skybox_Space 2 Small.png using Guid(81eb24afd79873b408dd207831e625de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2a4f056c9b55f2f4b043c707b31481') in 0.008690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 4/Large/Textures/Back_Large.png
+  artifactKey: Guid(0ab200a054a2ff74e99d73e40817ea7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 4/Large/Textures/Back_Large.png using Guid(0ab200a054a2ff74e99d73e40817ea7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7cfd70a80c260f1dc0ca98f8cb7e4b') in 0.012733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 1/Medium/Textures/Up_Space 1 Medium.png
+  artifactKey: Guid(ca82c8a9728bfbb40b87ba98fc94f7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 1/Medium/Textures/Up_Space 1 Medium.png using Guid(ca82c8a9728bfbb40b87ba98fc94f7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409dfd118962edeb0f42680cd3bb49aa') in 0.041159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 3/Large/Textures/Down_Large.png
+  artifactKey: Guid(2dd1a06234ad3e44b96bcd438b8297da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 3/Large/Textures/Down_Large.png using Guid(2dd1a06234ad3e44b96bcd438b8297da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd643f89188fe848d4decebab13cdc04') in 0.111553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 5/Small/Textures/Right_Small.png
+  artifactKey: Guid(daa2db5c03ff9574ea2020a609d10439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 5/Small/Textures/Right_Small.png using Guid(daa2db5c03ff9574ea2020a609d10439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a460c1283ec671f749f3fe8820b51bf0') in 0.011389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 3/Medium/Textures/Right_Medium.png
+  artifactKey: Guid(83ea2f4cbe0af51468067a6b06a8b6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 3/Medium/Textures/Right_Medium.png using Guid(83ea2f4cbe0af51468067a6b06a8b6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49c273e62209ba11a64b3f4117d6cd1') in 0.024957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 5/Large/Textures/Left_Large.png
+  artifactKey: Guid(82196fb61639fad4287ff18fa4c1215f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 5/Large/Textures/Left_Large.png using Guid(82196fb61639fad4287ff18fa4c1215f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35813aa8b0bb4f89f99e76d7b3e5e56') in 0.101712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 3/Small/Textures/Front_Small.png
+  artifactKey: Guid(f6d57a9793c80d149bd4b34bb4fd3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 3/Small/Textures/Front_Small.png using Guid(f6d57a9793c80d149bd4b34bb4fd3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ea609637960e764569d2d1779a2cc7') in 0.012294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 1/Small/Textures/Left_Space 1 Small.png
+  artifactKey: Guid(2fbc728dabd80fc4e81cd3715bdd266c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 1/Small/Textures/Left_Space 1 Small.png using Guid(2fbc728dabd80fc4e81cd3715bdd266c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925bd8b5eb3b2a874a258d8904b3730f') in 0.013707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tree_Textures/normal_specular.png
+  artifactKey: Guid(a6ba495d6013be64aac436f50d6a7d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/normal_specular.png using Guid(a6ba495d6013be64aac436f50d6a7d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb3c0fd693e56a4d1cb87d887c739a7') in 0.023914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 3/Large/Textures/Up_Large.png
+  artifactKey: Guid(52ffafe8f17b9f34c9521d36c75661f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 3/Large/Textures/Up_Large.png using Guid(52ffafe8f17b9f34c9521d36c75661f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ab39a98abaedaeaa58e0436897b1f4') in 0.080138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 2/Small/Textures/Down_Skybox_Space 2 Small.png
+  artifactKey: Guid(2b194319ac1ce144ab62acc6182d8135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 2/Small/Textures/Down_Skybox_Space 2 Small.png using Guid(2b194319ac1ce144ab62acc6182d8135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33b2d432ebf10658b792863a0c8ecf3') in 0.009656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 1/Small/Textures/Back_Space 1 Small.png
+  artifactKey: Guid(dcb12d203cf5b194880adf2cc67e9817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 1/Small/Textures/Back_Space 1 Small.png using Guid(dcb12d203cf5b194880adf2cc67e9817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae626ddbb047251d5dfd79a432a90e2e') in 0.009369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 1/Large/Textures/Down_Space 1 Large.png
+  artifactKey: Guid(e6b4351057222e8438c988b8ce155b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 1/Large/Textures/Down_Space 1 Large.png using Guid(e6b4351057222e8438c988b8ce155b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5612b46890e34d31700257f9956d35ce') in 0.077241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free Skyboxes - Space/SBS Space 2/Medium/Textures/Down_Skybox_Space 2 Medium.png
+  artifactKey: Guid(f23add65347490a47b4c9be27db535dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Skyboxes - Space/SBS Space 2/Medium/Textures/Down_Skybox_Space 2 Medium.png using Guid(f23add65347490a47b4c9be27db535dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee928c2c37e62e4eaee21f8fb7fe270') in 0.020845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 427.039801 seconds.
+  path: Assets/Capture2.PNG
+  artifactKey: Guid(4fa10a8534b3c784985533fca78798cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Capture2.PNG using Guid(4fa10a8534b3c784985533fca78798cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091b3071cf6a17e9af8b7c43124cc575') in 0.009899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Capture4.PNG
+  artifactKey: Guid(b7a17fe3ddc8c0d4dbda651e2ea6ff93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Capture4.PNG using Guid(b7a17fe3ddc8c0d4dbda651e2ea6ff93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d57e0a14ff89c5439c0b80609d4a01') in 0.010929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.453 seconds
+Refreshing native plugins compatible for Editor in 14.36 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.135 seconds
+Domain Reload Profiling: 1584ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1135ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (542ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 12.03 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4536 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (3.6 MB). Loaded Objects now: 5006.
+Memory consumption went from 170.9 MB to 167.3 MB.
+Total: 4.214200 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.091600 ms MarkObjects: 2.851600 ms  DeleteObjects: 0.937600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.454 seconds
+Refreshing native plugins compatible for Editor in 12.97 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.079 seconds
+Domain Reload Profiling: 1530ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1080ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 12.03 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4537 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (3.6 MB). Loaded Objects now: 5010.
+Memory consumption went from 173.1 MB to 169.5 MB.
+Total: 4.148700 ms (FindLiveObjects: 0.339200 ms CreateObjectMapping: 0.094800 ms MarkObjects: 2.740500 ms  DeleteObjects: 0.973700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.444 seconds
+Refreshing native plugins compatible for Editor in 14.83 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.078 seconds
+Domain Reload Profiling: 1518ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1078ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (561ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (436ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 11.18 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4537 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (3.6 MB). Loaded Objects now: 5014.
+Memory consumption went from 175.0 MB to 171.4 MB.
+Total: 4.289900 ms (FindLiveObjects: 0.331800 ms CreateObjectMapping: 0.089200 ms MarkObjects: 2.738000 ms  DeleteObjects: 1.130100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.424 seconds
+Refreshing native plugins compatible for Editor in 13.17 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.026 seconds
+Domain Reload Profiling: 1447ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (205ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1026ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (558ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (436ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 11.69 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4537 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (3.6 MB). Loaded Objects now: 5018.
+Memory consumption went from 177.0 MB to 173.3 MB.
+Total: 4.627600 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.089900 ms MarkObjects: 3.207100 ms  DeleteObjects: 0.988400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
